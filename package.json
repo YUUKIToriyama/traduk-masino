@@ -1,0 +1,22 @@
+{
+  "name": "@toriyama/traduk-masino",
+  "version": "0.0.1",
+  "description": "Google Translation APIを試してみる",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUUKIToriyama/traduk-masino.git"
+  },
+  "author": "YUUKIToriyama <github@toriyama.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YUUKIToriyama/traduk-masino/issues"
+  },
+  "homepage": "https://github.com/YUUKIToriyama/traduk-masino#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^6.3.0"
+  }
+}
