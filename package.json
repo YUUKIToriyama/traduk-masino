@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/YUUKIToriyama/traduk-masino#readme",
   "dependencies": {
-    "@google-cloud/translate": "^6.3.0"
+    "@google-cloud/translate": "^6.3.1"
   }
 }

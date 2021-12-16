@@ -3,7 +3,6 @@ const { Translate } = require("@google-cloud/translate").v2;
 
 // 翻訳機を準備します。
 const translator = new Translate({
-	projectId: "torichan-0129", // プロジェクトIDを指定します。
 	keyFilename: "./secret.json" // 秘密鍵の保存された場所を指定します。
 });
 
@@ -14,5 +13,4 @@ const translateText = async (text) => {
 	console.log(result); // 結果をコンソールに表示します。
 };
 
-// 実行例
-translateText("好きな食べ物はハンバーグです。");
+translateText(process.argv[2]);
